@@ -31,7 +31,7 @@ func TestCheckLeave(t *testing.T) {
 			leaveDate:        time.Date(2021, 11, 5, 0, 0, 0, 0, time.UTC),
 			leaveDuration:    3,
 			expectedResult:   false,
-			expectedReason:   "Karena hanya boleh mengambil 1 hari cuti pribadi",
+			expectedReason:   "Karena hanya boleh mengambil 1 hari cuti",
 		},
 		{
 			name:             "Cuti bisa diambil di tahun pertama",
