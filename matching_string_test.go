@@ -16,7 +16,7 @@ func TestFindMatchingStrings(t *testing.T) {
 		},
 		{
 			input:          []string{"11", "Satu", "Sate", "Tujuh", "Tusuk", "Tujuh", "Sate", "Bonus", "Tiga", "Puluh", "Tujuh", "Tusuk"},
-			expectedOutput: "3 5",
+			expectedOutput: "3 5 10",
 		},
 		{
 			input:          []string{"5", "pisang", "goreng", "enak", "sekali", "rasanya"},
